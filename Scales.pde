@@ -1,12 +1,12 @@
 public void setup() {
-  size(600, 600);
+  size(100, 100);
   background(0, 0, 0);
   noLoop();
 }
 
 public void draw() {
-  for (int i = 0; i <= 900; i += 100) {
-    for (int j = 0; j <= 900; j += 100) {
+  for (int i = 0; i <= 100; i += 100) {
+    for (int j = 0; j <= 100; j += 100) {
       triforce(0+i, 50+i, 50+j, 100+j, 25+i);
     }
   }
